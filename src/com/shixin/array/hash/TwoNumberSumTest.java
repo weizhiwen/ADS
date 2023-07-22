@@ -46,7 +46,7 @@ public class TwoNumberSumTest {
 
     public static void main(String[] args) {
         Integer[] result1 = findTwoNumberIndexByHash(array, 18);
-        System.out.println("hash法查找两数之和" + Arrays.toString(result1));
+        System.out.println("Hash法查找两数之和" + Arrays.toString(result1));
 
         Integer[] result2 = findTwoNumberIndexByPointer(array, 18);
         System.out.println("双指针法查找两数之和（前提是数组有序）" + Arrays.toString(result2));
