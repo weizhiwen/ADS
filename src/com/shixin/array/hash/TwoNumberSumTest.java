@@ -30,9 +30,9 @@ public class TwoNumberSumTest {
         int leftIndex = 0;
         int rightIndex = array.length - 1;
         while (leftIndex < rightIndex) {
-            Integer leftValue = array[leftIndex];
-            Integer rightValue = array[rightIndex];
-            Integer sum = leftValue + rightValue;
+            Integer a = array[leftIndex];
+            Integer b = array[rightIndex];
+            Integer sum = a + b;
             if (sum.equals(target)) {
                 return new Integer[]{leftIndex, rightIndex};
             } else if (sum.compareTo(target) < 0) {
