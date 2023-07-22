@@ -1,4 +1,4 @@
-package com.shixin.array.hash;
+package com.shixin.array;
 
 import java.util.Arrays;
 import java.util.HashMap;

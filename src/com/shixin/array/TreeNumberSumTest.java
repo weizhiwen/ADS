@@ -1,4 +1,4 @@
-package com.shixin.array.pointer;
+package com.shixin.array;
 
 import java.util.ArrayList;
 import java.util.HashMap;
